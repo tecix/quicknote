@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Quick Note
+Comment=Capture notes into an Obsidian vault via QuickAdd Capture choices
+Exec=quicknote
+Icon=accessories-text-editor
+Categories=Utility;TextEditor;
+StartupNotify=true
+Actions=settings;
+
+[Desktop Action settings]
+Name=Settings
+Exec=quicknote --settings

@@ -1,0 +1,3 @@
+/target
+# Stale lockfile from before the workspace; the root Cargo.lock is used.
+/app/Cargo.lock

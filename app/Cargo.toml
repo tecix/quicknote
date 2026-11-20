@@ -1,0 +1,12 @@
+[package]
+name = "quicknote"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+gtk = { package = "gtk4", version = "0.11.5", features = ["v4_12"] }
+libadwaita = { version = "0.9.2", features = ["v1_5"] }
+quicknote-core = { version = "0.1.0", path = "../core" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
