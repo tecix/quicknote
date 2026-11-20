@@ -7,6 +7,22 @@ straight into the vault using your [QuickAdd](https://github.com/chhoumann/quick
 
 Built with Rust, GTK 4 and libadwaita.
 
+<p align="center">
+  <img src="docs/demo-light.gif" alt="Typing a note, switching from the Daily log choice to Inbox with Ctrl+2, and saving with Enter" width="680">
+</p>
+
+| Light | Dark |
+| --- | --- |
+| ![Capture window in light mode, Daily log choice in blue](docs/screenshot-light.png) | ![Capture window in dark mode with Vietnamese text, Ideas choice in purple](docs/screenshot-dark.png) |
+
+<details>
+<summary>Dark mode demo</summary>
+
+<p align="center">
+  <img src="docs/demo-dark.gif" alt="The same capture flow in dark mode" width="680">
+</p>
+</details>
+
 ## Features
 
 - **Uses your existing QuickAdd setup.** Reads `.obsidian/plugins/quickadd/data.json`
